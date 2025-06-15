@@ -26,12 +26,9 @@ We combine event study, regression, volatility modeling (GARCH, LSTM), and causa
 
 ## Project Structure
 
-- `/notebooks/`: Jupyter Notebooks for every stage of analysis (see below).
-- `/scripts/`: Python modules for data processing and modeling.
 - `/data/`: Sample data and data schema (main data available on request).
+-  `/notebooks/`: Jupyter Notebooks for every stage of analysis (see below)
 - `/results/`: Output tables, figures, and logs.
-- `/report/`: PDF of the final thesis report.
-- `/presentation/`: Slides for final defense (optional).
 
 ---
 
