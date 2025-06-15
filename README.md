@@ -66,19 +66,3 @@ We combine event study, regression, volatility modeling (GARCH, LSTM), and causa
 - Robustness: Placebo tests, threshold variation, additional controls
 
 ---
-
-## ⚙Technical Stack
-
-- **Python 3.10+**
-- Libraries: `pandas`, `numpy`, `matplotlib`, `statsmodels`, `arch`, `tensorflow/keras`, `econml`, `scikit-learn`, `yfinance`
-- Jupyter notebooks for step-by-step, reproducible workflows  
-- Modular code (see `/scripts/`): all preprocessing, modeling, and evaluation functions
-
-### **Reproducibility**
-- All notebooks run independently (data path in `/data/`)
-- Random seeds set for reproducible ML outputs  
-- Environment file provided:  
-  ```bash
-  conda env create -f environment.yml
-  # or
-  pip install -r requirements.txt
