@@ -29,6 +29,7 @@ We combine event study, regression, volatility modeling (GARCH, LSTM), and causa
 - `/data/`: Sample data and data schema (main data available on request).
 -  `/notebooks/`: Jupyter Notebooks for every stage of analysis (see below)
 - `/results/`: Output tables, figures, and logs.
+- `/report/`: Full thesis write-up, including intro, methods, and results
 
 ---
 
